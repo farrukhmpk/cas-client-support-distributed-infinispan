@@ -8,6 +8,11 @@
     <artifactId>cas-client-support-distributed-infinispan</artifactId>
     <version>1.0-SNAPSHOT</version>
 
+    <name>CAS Client Infinispan Support</name>
+    <description>This library allows to CAS client to use distributed Infinispan cache as proxy granting ticket store
+    </description>
+    <url>https://github.com/kamranzafar/cas-client-support-distributed-infinispan</url>
+
     <developers>
         <developer>
             <id>kamranzafar</id>
