@@ -1,6 +1,12 @@
 # CAS Client and distributed Infinispan Integration
 This library provides integration with distributed Infinispan cache.
 
+## Building
+
+Checkout the code and use  the following maven command to build the project
+
+<pre><code>mvn clean install</code></pre>
+
 ## Dependency
 
 <pre><code>&lt;dependency&gt;
