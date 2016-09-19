@@ -7,7 +7,11 @@ Checkout the code and use  the following maven command to build the project
 
 <pre><code>mvn clean install</code></pre>
 
-## Dependency
+## Usage
+
+Below is an example on how to use this library on a Spring Boot application on Wildfly/JBoss
+
+### Dependency
 
 <pre><code>&lt;dependency&gt;
     &lt;groupId&gt;org.kamranzafar.cas.client&lt;/groupId&gt;
@@ -16,10 +20,7 @@ Checkout the code and use  the following maven command to build the project
 &lt;/dependency&gt;
 </code></pre>
 
-
-## Usage
-
-Below is an example on how to use this library on a Spring Boot application on Wildfly/JBoss
+### Example
 
 <pre><code>// Lookup the relevant Cache that will be used to store CAS proxy granting tickets
 @Bean
